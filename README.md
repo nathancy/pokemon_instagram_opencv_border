@@ -14,6 +14,12 @@ python add_border.py
 
 Alternatively, you can run the `add_border_to_card.exe` binary executable. It will create a `/done` directory with all the processed cards inside. 
 
+Command to create `.exe`
+
+```
+pyinstaller --onefile --windowed --name="add_border_to_card" --icon="pikachu_face.ico" .\add_border.py
+```
+
 ## Result
 
 Before `->` After
